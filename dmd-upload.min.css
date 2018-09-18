@@ -1,0 +1,47 @@
+.dmd_upload{
+    position: relative;
+}
+.is_hover{
+    background-color: #c8dadf!important;
+}
+.dmd_upload .dmd_choose_file_outside .is_hover{
+    /*padding: 10px;*/
+}
+.dmd_upload .dmd_choose_file_outside{
+    width: 500px;
+    height: 300px;
+    background: #f1f1f1;
+    margin: auto;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+}
+.dmd_upload .dmd_choose_file_outside .dmd_choose_file_inside{
+    box-sizing: content-box;
+    margin: 2%;
+    border: 1px dashed #34ad91;
+    height: 92%;
+    border-radius: 2px;
+    text-align: center;
+}
+.dmd_upload .dmd_choose_file_outside .dmd_choose_file_inside button{
+    top: 25%;
+    font-size: 1.5em;
+    border: navajowhite;
+    background: #f1f1f1;
+    font-family: cursive;
+    position:  relative;
+}
+.dmd_upload .dmd_choose_file_outside .dmd_choose_file_inside label{
+    position: absolute;
+    color: #fff;
+    top: 47%;
+    left: 47%;
+    padding: 4px;
+    font-size: 1.2em;
+    background: #197b8e;
+    border-radius: 3px;
+    border: 1px solid #ba2b2b;
+}
+.dmd_upload .dmd_choose_file_outside .dmd_choose_file_inside input[type="file"]{
+    opacity: 0;
+}
